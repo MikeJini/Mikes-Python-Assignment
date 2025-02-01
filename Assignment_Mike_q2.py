@@ -4,6 +4,7 @@ total = 0
 avg = total // index
 num = int(input(f"Please enter a number #{index}: "))
 
+# While number is positive, continue
 while num >= 0:
     total += num
     avg = total // index
